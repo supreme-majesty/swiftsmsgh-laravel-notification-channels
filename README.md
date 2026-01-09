@@ -1,10 +1,10 @@
 # Swiftsmsgh Notification Channel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-notification-channels/swiftsmsgh.svg?style=flat-square)](https://packagist.org/packages/swiftsmsgh-laravel-notification-channels/swiftsmsgh)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-notification-channels/swiftsmsgh.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/swiftsmsgh)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/laravel-notification-channels/swiftsmsgh/master.svg?style=flat-square)](https://travis-ci.org/laravel-notification-channels/swiftsmsgh)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/laravel-notification-channels/swiftsmsgh/run-tests.yml?branch=main&style=flat-square)](https://github.com/laravel-notification-channels/swiftsmsgh/actions)
 [![StyleCI](https://styleci.io/repos/339892204/shield)](https://styleci.io/repos/339892204)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel-notification-channels/swiftsmsgh.svg?style=flat-square)](https://packagist.org/packages/swiftsmsgh-laravel-notification-channels/swiftsmsgh)
+[![Total Downloads](https://img.shields.io/packagist/dt/laravel-notification-channels/swiftsmsgh.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/swiftsmsgh)
 
 📲 [Swiftsmsgh](https://app.swiftsmsgh.com) Notifications Channel for Laravel.  
 This package makes it easy to send SMS notifications with Swiftsms-GH using the official [swiftsmsgh-api-sdk](https://github.com/swiftsmsgh/swiftsmsgh-api-sdk).
@@ -33,7 +33,7 @@ This package makes it easy to send SMS notifications with Swiftsms-GH using the 
 You can install the package via composer:
 
 ```bash
-composer require swiftsmsgh-laravel-notification-channels/swiftsmsgh
+composer require laravel-notification-channels/swiftsmsgh
 ```
 
 ### Configuration
