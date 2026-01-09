@@ -1,5 +1,5 @@
 {
-    "name": "swiftsmsgh-laravel-notification-channels/swiftsmsgh",
+    "name": "laravel-notification-channels/swiftsmsgh",
     "description": "swiftsms-GH SMS Notification Channel For Laravel",
     "homepage": "https://github.com/laravel-notification-channels/swiftsmsgh",
     "license": "MIT",
