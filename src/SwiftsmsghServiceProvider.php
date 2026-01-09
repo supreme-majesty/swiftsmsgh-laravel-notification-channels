@@ -13,7 +13,7 @@ class SwiftsmsghServiceProvider extends ServiceProvider implements DeferrablePro
      */
     public function register(): void
     {
-        $this->app->singleton(\Swiftsms\Swiftsmsgh::class, function ($app) {
+        $this->app->singleton(Swiftsmsgh::class, function ($app) {
             if (
                 empty($app['config']['services.swiftsmsgh.sender_id'])
                 || empty($app['config']['services.swiftsmsgh.api_token'])
@@ -21,7 +21,7 @@ class SwiftsmsghServiceProvider extends ServiceProvider implements DeferrablePro
                 throw new \InvalidArgumentException('Missing swiftsmsgh config in services');
             }
 
-            return new \Swiftsms\Swiftsmsgh(
+            return new Swiftsmsgh(
                 $app['config']['services.swiftsmsgh.api_token'],
                 $app['config']['services.swiftsmsgh.sender_id']
             );
@@ -30,6 +30,6 @@ class SwiftsmsghServiceProvider extends ServiceProvider implements DeferrablePro
 
     public function provides(): array
     {
-        return [\Swiftsms\Swiftsmsgh::class];
+        return [Swiftsmsgh::class];
     }
 }
